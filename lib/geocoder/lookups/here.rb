@@ -62,7 +62,7 @@ module Geocoder::Lookup
     end
 
     def api_key_not_string!
-      msg = <<~MSG
+      msg = <<-MSG
         API key for HERE Geocoding and Search API should be a string.
         For more info on how to obtain it, please see https://developer.here.com/documentation/identity-access-management/dev_guide/topics/plat-using-apikeys.html
       MSG
